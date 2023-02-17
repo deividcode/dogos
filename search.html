@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./assets/dogvg-8b1fe8cd.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Dogos Adoption Home is a site that provides adoption services for dogs. You can use this site to find your best friend.">
+
+    <title>Dogos</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Orienta&display=swap" rel="stylesheet">
+
+
+
+  <script type="module" crossorigin src="./assets/app-03ed20e4.js"></script>
+  <link rel="stylesheet" href="./assets/app-b429909b.css">
+</head>
+<body>
+
+    <!-- ======== MENU MOBILE ======== -->
+    <div id="screen-menu" class="w-[70vw] min-h-screen p-5 bg-[#fff] z-10">      
+
+        <div class="screen-menu__head flex justify-end">
+          <a href="#">
+            <img class="w-6" src="./assets/close-32d12830.svg" alt="close-menu">
+          </a>
+        </div>
+  
+        <nav class="menu grid gap-4 mt-5">
+          <a class="font-fredoka text-sm" href="index.html">Home</a>
+          <a class="font-fredoka text-sm" href="search.html">Search</a>
+          <a class="font-fredoka text-sm" href="#">Location</a>
+          <a class="font-fredoka text-sm" href="#">About Us</a>
+        </nav>
+  
+    </div>
+
+    <!-- ======== HEADER ======== -->
+    <div class="grid bg-[#eefbee]">
+
+        <header class="header container flex justify-between items-center h-16 md:h-20">
+
+            <div class="marca flex gap-1.5 items-center">
+            <span class="font-fredoka font-bold text-xl uppercase">dogos</span>
+            <img class="w-6" src="./assets/dogvg-8b1fe8cd.svg" alt="marga-dogo">
+            </div>
+
+            <nav class="menu hidden md:flex gap-6">
+            <a class="relative font-fredoka text-black text-sm link-paw" href="index.html">Home</a>
+            <a class="relative font-fredoka text-black text-sm link-paw" href="search.html">Search</a>
+            <a class="relative font-fredoka text-black text-sm link-paw" href="#">Location</a>
+            <a class="relative font-fredoka text-black text-sm link-paw" href="#">About Us</a>
+            </nav>
+
+            <a class="md:hidden icon-menu" href="#screen-menu">
+            <img class="" src="./assets/menu-e22a2e2a.svg" alt="icon-menu">
+            </a>          
+
+        </header>          
+
+    </div>
+
+    <!-- ======== MAIN ======== -->
+    <main class="bg-[#eefbee]">                
+
+        <div class="pt-6 text-center">
+            <h1 class="font-fredoka text-3xl lg:text-4xl">Dogs List</h1>
+        </div>
+
+        <!-- ======== BOX SEARCH ======== -->
+        <div class="">
+            
+        </div>
+
+        <!-- ======== DOGS LIST======== -->
+        <section class="container flex flex-col items-center">
+            
+            <div class="dogslist w-full py-16 grid auto-columnas gap-x-10 gap-y-12 justify-items-center" style="grid-template-columns: repeat(auto-fit, minmax(174px, 1fr))">
+
+                <span class="spinner mx-auto w-full"></span>             
+
+            </div>
+
+            <div class="my-8 inline-flex gap-0.5 justify-center items-center">
+                <div class="hidden px-3 py-2 border prev-page bg-[#39cd32] hover:bg-[#39cd32bd] hover:cursor-pointer">                    
+                    <span class="text-sm text-white">Prev</span>
+                </div>
+                <div class="px-3 py-2 border bg-[#202020]">
+                    <span class="text-sm text-white">Page <span class="page-number">1</span> </span>
+                </div>
+                <div class="hidden px-3 py-2 border next-page bg-[#39cd32] hover:bg-[#39cd32bd] hover:cursor-pointer">            
+                    <span class="text-sm text-white">Next</span>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    
+
+</body>
+</html>
